@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.10
     - hatchling
     - pip
   run:
-    - python >=3.9
+    - python >=3.10
     - xarray >=2024.1,<2025.dev0
     - pandas >=2.2,<3.dev0
     - scipy >=1.1,<2.dev0
@@ -36,7 +36,13 @@ test:
     - pip
 
 about:
-  summary: Scores is a package containing mathematical functions for the verification, evaluation and optimisation of forecasts, predictions or models.
+  summary: A Python package for verifying and evaluating models and predictions with xarray
+  description: |
+     scores is a Python package containing mathematical functions for the verification, evaluation
+     and optimisation of forecasts, predictions or models. It supports labelled n-dimensional
+     (multidimensional) data, which is used in many scientific fields and in machine learning. At
+     present, scores primarily supports the geoscience communities; in particular, the meteorological,
+     climatological and oceanographic communities.  
   license: Apache-2.0
   license_file: LICENSE
   doc_url: https://scores.readthedocs.io/
