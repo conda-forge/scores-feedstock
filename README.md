@@ -7,9 +7,16 @@ Home: https://github.com/nci/scores
 
 Package license: Apache-2.0
 
-Summary: Scores is a package containing mathematical functions for the verification, evaluation and optimisation of forecasts, predictions or models.
+Summary: A Python package for verifying and evaluating models and predictions with xarray
 
 Documentation: https://scores.readthedocs.io/
+
+scores is a Python package containing mathematical functions for the verification, evaluation
+and optimisation of forecasts, predictions or models. It supports labelled n-dimensional
+(multidimensional) data, which is used in many scientific fields and in machine learning. At
+present, scores primarily supports the geoscience communities; in particular, the meteorological,
+climatological and oceanographic communities.
+
 
 Current build status
 ====================
