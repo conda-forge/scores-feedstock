@@ -1,5 +1,5 @@
 {% set name = "scores" %}
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scores-{{ version }}.tar.gz
-  sha256: 28890897c16dad02e105a483c79a48454e6f844ed06ecbbb4cd45e3d20b3de84
+  sha256: 3edfeb2f077152b08351e19ea83f1cae6b4237e3abe495dcd3adef1ddeb27661
 
 build:
   noarch: python
